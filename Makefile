@@ -8,4 +8,4 @@ deploy:	build
 
 .PHONY: run
 run:	build
-	bundle exec middleman server
+	bundle exec middleman server --watcher-force-polling
