@@ -1,63 +1,9 @@
 ---
-title: Welcome to Middleman
+title: Keyserver experiments
 ---
 
-<section class="pgp-key">
-  <h1 class="fingerprint">
-    A999 B749 8D1A 8DC4 73E5  3C92 309F 635D AD1B 5517
-  </h1>
+<h1>Keyserver experiments</h1>
 
-  <div>
-    <ul>
-      <li><a href="mailto:paul@paulfurley.com">Paul Michael Furley &lt;paul@paulfurley.com&gt;</a></li>
-      <li><a href="mailto:furbitso@gmail.com">Paul Michael Furley &lt;furbitso@gmail.com&gt;</a></li>
-    </ul>
-
-    <div>
-      <div class="valid-from">Valid from: 1st May 2015</div>
-      <div class="valid-until">Valid until: 22nd December 2017</div>
-    </div>
-  </div>
-
-</section>
-
-<section class="content">
-
-<h2>Download with GPG</h2>
-
-<p>
-The safest way to get this key is to open a terminal and type the following
-command.
-</p>
-
-<code>
-> gpg --recv-keys 'A999 B749 8D1A 8DC4 73E5  3C92 309F 635D AD1B 5517'
-</code>
-
-<p>
-<a href="#">Download directly.</a>
-</p>
-
-<hr>
-<h2>Always compare fingerprints</h2>
-
-<p>
-The 40-characters above make up the <b>PGP fingerprint</b>. You should always
-ask your contact for their fingerprint and compare it to this one.
-</p>
-
-<p>
-<a href="https://twitter.com/search?q=A999 B749 8D1A 8DC4 73E5  3C92 309F 635D AD1B 5517">Search Twitter for fingerprint</a>
-
-
-<h2>Don't trust name &amp; email address</h2>
-<p>
-The names and email addresses on a PGP key are not verified in any way; anyone could create a fake key and
-add any name and address.
-</p>
-
-<p>
-If you found this by searching for a name or email address, you should definitely find a way to compare the fingerprint.
-</p>
-
-</section>
+<ul>
+  <li><%= link_to "Get a key", "fingerprint" %> <%= link_to "[SKS equivalent]", "https://keyserver.paulfurley.com/pks/lookup?op=get&search=0xA999B7498D1A8DC473E53C92309F635DAD1B5517" %></li>
+</ul>
